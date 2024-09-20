@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DDC394982C9DF0C9008BA960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC3947E2C9DF0C8008BA960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC394852C9DF0C8008BA960;
+			remoteInfo = BuyMe;
+		};
+		DDC394A22C9DF0C9008BA960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC3947E2C9DF0C8008BA960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC394852C9DF0C8008BA960;
+			remoteInfo = BuyMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDC394862C9DF0C8008BA960 /* BuyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC394972C9DF0C9008BA960 /* BuyMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC394A12C9DF0C9008BA960 /* BuyMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DDC394882C9DF0C8008BA960 /* BuyMe */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BuyMe;
+			sourceTree = "<group>";
+		};
+		DDC3949A2C9DF0C9008BA960 /* BuyMeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BuyMeTests;
+			sourceTree = "<group>";
+		};
+		DDC394A42C9DF0C9008BA960 /* BuyMeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BuyMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC394832C9DF0C8008BA960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC394942C9DF0C9008BA960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC3949E2C9DF0C9008BA960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC3947D2C9DF0C8008BA960 = {
+			isa = PBXGroup;
+			children = (
+				DDC394882C9DF0C8008BA960 /* BuyMe */,
+				DDC3949A2C9DF0C9008BA960 /* BuyMeTests */,
+				DDC394A42C9DF0C9008BA960 /* BuyMeUITests */,
+				DDC394872C9DF0C8008BA960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC394872C9DF0C8008BA960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC394862C9DF0C8008BA960 /* BuyMe.app */,
+				DDC394972C9DF0C9008BA960 /* BuyMeTests.xctest */,
+				DDC394A12C9DF0C9008BA960 /* BuyMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC394852C9DF0C8008BA960 /* BuyMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC394AB2C9DF0C9008BA960 /* Build configuration list for PBXNativeTarget "BuyMe" */;
+			buildPhases = (
+				DDC394822C9DF0C8008BA960 /* Sources */,
+				DDC394832C9DF0C8008BA960 /* Frameworks */,
+				DDC394842C9DF0C8008BA960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DDC394882C9DF0C8008BA960 /* BuyMe */,
+			);
+			name = BuyMe;
+			packageProductDependencies = (
+			);
+			productName = BuyMe;
+			productReference = DDC394862C9DF0C8008BA960 /* BuyMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDC394962C9DF0C9008BA960 /* BuyMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC394AE2C9DF0C9008BA960 /* Build configuration list for PBXNativeTarget "BuyMeTests" */;
+			buildPhases = (
+				DDC394932C9DF0C9008BA960 /* Sources */,
+				DDC394942C9DF0C9008BA960 /* Frameworks */,
+				DDC394952C9DF0C9008BA960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC394992C9DF0C9008BA960 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DDC3949A2C9DF0C9008BA960 /* BuyMeTests */,
+			);
+			name = BuyMeTests;
+			packageProductDependencies = (
+			);
+			productName = BuyMeTests;
+			productReference = DDC394972C9DF0C9008BA960 /* BuyMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDC394A02C9DF0C9008BA960 /* BuyMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC394B12C9DF0C9008BA960 /* Build configuration list for PBXNativeTarget "BuyMeUITests" */;
+			buildPhases = (
+				DDC3949D2C9DF0C9008BA960 /* Sources */,
+				DDC3949E2C9DF0C9008BA960 /* Frameworks */,
+				DDC3949F2C9DF0C9008BA960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC394A32C9DF0C9008BA960 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DDC394A42C9DF0C9008BA960 /* BuyMeUITests */,
+			);
+			name = BuyMeUITests;
+			packageProductDependencies = (
+			);
+			productName = BuyMeUITests;
+			productReference = DDC394A12C9DF0C9008BA960 /* BuyMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC3947E2C9DF0C8008BA960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DDC394852C9DF0C8008BA960 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DDC394962C9DF0C9008BA960 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DDC394852C9DF0C8008BA960;
+					};
+					DDC394A02C9DF0C9008BA960 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DDC394852C9DF0C8008BA960;
+					};
+				};
+			};
+			buildConfigurationList = DDC394812C9DF0C8008BA960 /* Build configuration list for PBXProject "BuyMe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC3947D2C9DF0C8008BA960;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DDC394872C9DF0C8008BA960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC394852C9DF0C8008BA960 /* BuyMe */,
+				DDC394962C9DF0C9008BA960 /* BuyMeTests */,
+				DDC394A02C9DF0C9008BA960 /* BuyMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC394842C9DF0C8008BA960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC394952C9DF0C9008BA960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC3949F2C9DF0C9008BA960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC394822C9DF0C8008BA960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC394932C9DF0C9008BA960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC3949D2C9DF0C9008BA960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC394992C9DF0C9008BA960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC394852C9DF0C8008BA960 /* BuyMe */;
+			targetProxy = DDC394982C9DF0C9008BA960 /* PBXContainerItemProxy */;
+		};
+		DDC394A32C9DF0C9008BA960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC394852C9DF0C8008BA960 /* BuyMe */;
+			targetProxy = DDC394A22C9DF0C9008BA960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDC394A92C9DF0C9008BA960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDC394AA2C9DF0C9008BA960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DDC394AC2C9DF0C9008BA960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BuyMe/BuyMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BuyMe/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A3CRXPB59;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giannispapadopoulos.BuyMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DDC394AD2C9DF0C9008BA960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BuyMe/BuyMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BuyMe/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A3CRXPB59;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giannispapadopoulos.BuyMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DDC394AF2C9DF0C9008BA960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A3CRXPB59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giannispapadopoulos.BuyMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuyMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuyMe";
+			};
+			name = Debug;
+		};
+		DDC394B02C9DF0C9008BA960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A3CRXPB59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giannispapadopoulos.BuyMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuyMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuyMe";
+			};
+			name = Release;
+		};
+		DDC394B22C9DF0C9008BA960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A3CRXPB59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giannispapadopoulos.BuyMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BuyMe;
+			};
+			name = Debug;
+		};
+		DDC394B32C9DF0C9008BA960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A3CRXPB59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giannispapadopoulos.BuyMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BuyMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC394812C9DF0C8008BA960 /* Build configuration list for PBXProject "BuyMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC394A92C9DF0C9008BA960 /* Debug */,
+				DDC394AA2C9DF0C9008BA960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC394AB2C9DF0C9008BA960 /* Build configuration list for PBXNativeTarget "BuyMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC394AC2C9DF0C9008BA960 /* Debug */,
+				DDC394AD2C9DF0C9008BA960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC394AE2C9DF0C9008BA960 /* Build configuration list for PBXNativeTarget "BuyMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC394AF2C9DF0C9008BA960 /* Debug */,
+				DDC394B02C9DF0C9008BA960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC394B12C9DF0C9008BA960 /* Build configuration list for PBXNativeTarget "BuyMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC394B22C9DF0C9008BA960 /* Debug */,
+				DDC394B32C9DF0C9008BA960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC3947E2C9DF0C8008BA960 /* Project object */;
+}
