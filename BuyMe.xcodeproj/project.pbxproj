@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DDC394C22CA18A5E008BA960 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC394C02CA18A43008BA960 /* CoreData.framework */; };
+		DDC394C92CA18AB4008BA960 /* ProductModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDC394C72CA18AB4008BA960 /* ProductModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DDC394982C9DF0C9008BA960 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		DDC394862C9DF0C8008BA960 /* BuyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC394972C9DF0C9008BA960 /* BuyMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC394A12C9DF0C9008BA960 /* BuyMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC394C02CA18A43008BA960 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DDC394C82CA18AB4008BA960 /* ProductModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC394C22CA18A5E008BA960 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +83,11 @@
 		DDC3947D2C9DF0C8008BA960 = {
 			isa = PBXGroup;
 			children = (
+				DDC394C72CA18AB4008BA960 /* ProductModel.xcdatamodeld */,
 				DDC394882C9DF0C8008BA960 /* BuyMe */,
 				DDC3949A2C9DF0C9008BA960 /* BuyMeTests */,
 				DDC394A42C9DF0C9008BA960 /* BuyMeUITests */,
+				DDC394BF2CA18A43008BA960 /* Frameworks */,
 				DDC394872C9DF0C8008BA960 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +100,14 @@
 				DDC394A12C9DF0C9008BA960 /* BuyMeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC394BF2CA18A43008BA960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC394C02CA18A43008BA960 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC394C92CA18AB4008BA960 /* ProductModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +568,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDC394C72CA18AB4008BA960 /* ProductModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDC394C82CA18AB4008BA960 /* ProductModel.xcdatamodel */,
+			);
+			currentVersion = DDC394C82CA18AB4008BA960 /* ProductModel.xcdatamodel */;
+			path = ProductModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DDC3947E2C9DF0C8008BA960 /* Project object */;
 }
